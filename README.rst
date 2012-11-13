@@ -1,10 +1,7 @@
 python-sql_lexer - Parse SQL statements
 ======================================
 
-sql_lexer is a non-validating SQL parser module for Python.
-
-|buildstatus|_
-
+sql_lexer is an SQL lexer module for Python.
 
 Install
 -------
@@ -30,25 +27,11 @@ Links
 -----
 
 Project Page
-  https://github.com/andialbrecht/sql_lexer
+  https://github.com/MikeAmy/sql_lexer
 
-Documentation
-  http://readthedocs.org/docs/sql_lexer/en/latest/
+sql_lexer is licensed under the BSD license.
 
-Discussions
-  http://groups.google.com/group/sql_lexer
-
-Issues/Bugs
-  https://github.com/andialbrecht/sqlparse/issues
-
-Online Demo
-  http://sqlformat.appspot.com
-
-
-python-sqlparse is licensed under the BSD license.
+Parts of the code are based on sqlparser written by Andi Albrecht and others.
 
 Parts of the code are based on pygments written by Georg Brandl and others.
 pygments-Homepage: http://pygments.org/
-
-.. |buildstatus| image:: https://secure.travis-ci.org/andialbrecht/sqlparse.png?branch=master
-.. _buildstatus: http://travis-ci.org/#!/andialbrecht/sqlparse

@@ -18,8 +18,10 @@ setup(
     description='Simple SQL lexer',
     author='Michael Stephen Amy',
     author_email='cocoade@googlemail.com',
-    download_url=DOWNLOAD_URL,
-    long_description=LONG_DESCRIPTION,
+    download_url="",
+    long_description=open(
+        os.path.join(os.path.dirname(__file__), 'README.rst'),
+        ).read().strip(),
     license='BSD',
     url='https://github.com/MikeAmy/sql_lexer',
     classifiers=[
