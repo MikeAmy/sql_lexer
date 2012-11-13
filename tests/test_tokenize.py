@@ -3,10 +3,9 @@
 import unittest
 import types
 
-import sqlparse
-from sqlparse import lexer
-from sqlparse import sql
-from sqlparse.tokens import *
+from sql_lexer import lexer
+from sql_lexer import sql
+from sql_lexer.tokens import *
 
 
 class TestTokenize(unittest.TestCase):
@@ -99,18 +98,6 @@ class TestToken(unittest.TestCase):
 
 
 class TestTokenList(unittest.TestCase):
-
-    def test_repr(self):
-        p = sqlparse.parse('foo, bar, baz')[0]
-        tst = "<IdentifierList 'foo, b...' at 0x"
-        self.assertEqual(repr(p.tokens[0])[:len(tst)], tst)
-
-    def test_token_first(self):
-        p = sqlparse.parse(' select foo')[0]
-        first = p.token_first()
-        self.assertEqual(first.value, 'select')
-        self.assertEqual(p.token_first(ignore_whitespace=False).value, ' ')
-        self.assertEqual(sql.TokenList([]).token_first(), None)
 
     def test_token_matching(self):
         t1 = sql.Token(Keyword, 'foo')
