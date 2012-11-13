@@ -1,11 +1,5 @@
-recursive-include docs source/*
-recursive-include docs agogo/*
-recursive-include docs agogo/static/*
-include docs/sqlformat.1
-include docs/Makefile
-recursive-include tests *.py *.sql
+recursive-include tests *.py
 include COPYING
 include TODO
 include AUTHORS
 include CHANGES
-include Makefile
