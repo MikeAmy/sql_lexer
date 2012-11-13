@@ -1,7 +1,7 @@
-python-sqlparse - Parse SQL statements
+python-sql_lexer - Parse SQL statements
 ======================================
 
-sqlparse is a non-validating SQL parser module for Python.
+sql_lexer is a non-validating SQL parser module for Python.
 
 |buildstatus|_
 
@@ -13,7 +13,7 @@ Run::
 
   python setup.py install
 
-to install python-sqlparse on your system.
+to install python-sql_lexer on your system.
 
 
 Run Tests
@@ -30,13 +30,13 @@ Links
 -----
 
 Project Page
-  https://github.com/andialbrecht/sqlparse
+  https://github.com/andialbrecht/sql_lexer
 
 Documentation
-  http://readthedocs.org/docs/sqlparse/en/latest/
+  http://readthedocs.org/docs/sql_lexer/en/latest/
 
 Discussions
-  http://groups.google.com/group/sqlparse
+  http://groups.google.com/group/sql_lexer
 
 Issues/Bugs
   https://github.com/andialbrecht/sqlparse/issues
