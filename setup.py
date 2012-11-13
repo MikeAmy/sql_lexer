@@ -14,7 +14,7 @@ import sql_lexer
 setup(
     name='sql_lexer',
     version=sql_lexer.__version__,
-    packages=find_packages('sql_lexer'),
+    packages=['sql_lexer'],
     description='Simple SQL lexer',
     author='Michael Stephen Amy',
     author_email='cocoade@googlemail.com',
